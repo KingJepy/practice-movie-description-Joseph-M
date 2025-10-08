@@ -5,6 +5,7 @@ public class MovieModel {
     private int rating;
     private String description;
 
+
     public MovieModel(String title, int rating, String description) {
         this.title = title;
         this.rating = rating;

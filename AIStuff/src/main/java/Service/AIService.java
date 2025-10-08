@@ -21,7 +21,7 @@ public class AIService {
 
     //this is whats asked to the ai. we build a prompt
     public String generateDescription(String title, int rating) {
-        String prompt = ("Write a description of the movie titled " + title + " thats rated " + rating + ".");
+        String prompt = ("Write a description short description of the movie titled " + title + " thats rated " + rating + ". Please ensure the response is only 2-3 sentances long");
 
         GenerateContentResponse response = client.models.generateContent(
                 "gemini-2.0-flash-001",
