@@ -1,4 +1,4 @@
-package Models;
+package AI.Fundementals.AIStuff.Models;
 
 public class MovieModel {
     private String title;

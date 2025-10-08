@@ -1,4 +1,4 @@
-package Service;
+package AI.Fundementals.AIStuff.Service;
 
 import com.google.genai.Client;
 import com.google.genai.types.GenerateContentResponse;

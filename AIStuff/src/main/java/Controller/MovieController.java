@@ -1,7 +1,7 @@
-package Controller;
+package AI.Fundementals.AIStuff.Controller;
 
-import Models.MovieModel;
-import Service.AIService;
+import AI.Fundementals.AIStuff.Models.MovieModel;
+import AI.Fundementals.AIStuff.Service.AIService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -29,7 +29,7 @@ public class MovieController {
         return movie; // return the newly added movie
     }
 
-    @GetMapping
+    @GetMapping()
     public List<MovieModel> getMovies() {
         return movies; // return the list of movies
     }
